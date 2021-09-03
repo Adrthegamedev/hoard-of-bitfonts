@@ -1,0 +1,59 @@
+# This is a global comment
+# spanning multiple lines.
+
+name: Test Roman 8px
+family: Test
+notice:
+    Test is the property of T€$ţ0Яζ Inc.
+    It's not a very useful font.
+encoding: totally-made-up
+
+# The letter A is the first letter of the Latin alphabet.
+# We've got three kinds of labels: unicode, codepage, and text.
+u+0041:
+0x41:
+latin_a:
+    ....
+    .@..
+    @.@.
+    @@@.
+    @.@.
+    @.@.
+
+# Each type of label is optional.
+# We're only going to give a unicode code point for B.
+u+0042:
+    .....
+    @@@..
+    @..@.
+    @@@..
+    @..@.
+    @@@..
+
+# Or for example just a text label.
+# This is a 0x0 empty glyph, by the way.
+empty:
+    -
+
+# Multiple labels of the same type are OK. Numbers may be decimal, too.
+# Glyphs don't need to be the same width or height
+0x01:
+0x02:
+255:
+smiley:
+    ......
+    .@..@.
+    ......
+    .@..@.
+    ..@@..
+
+# Multiple code points may define a grapheme cluster
+u+0061, u+0300:
+small_a_grave:
+    @...
+    .@..
+    ....
+    .@@.
+    @.@.
+    @.@.
+    .@@@
