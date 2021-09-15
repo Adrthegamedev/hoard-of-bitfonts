@@ -1,0 +1,45 @@
+name: Neep 15
+family: Neep
+foundry: jmk
+copyright: Jim Knoble <jmknoble@pobox.com>
+style: altglyph
+point-size: 15
+setwidth: medium
+dpi: 75 75
+spacing: character-cell
+x-height: 7
+cap-height: 10
+ascent: 12
+descent: 3
+offset: 0 -3
+encoding: us-ascii
+converter: monobit v0.12
+source-name: neep-ampersand-alt-08x15.bdf
+source-format: BDF v2.1
+bdf.FONTNAME-REGISTRY: ""
+bdf.WEIGHT: 100
+bdf.FIGURE-WIDTH: 8
+bdf.QUAD-WIDTH: 8
+bdf.-XMBDFED-INFO: "Edited with xmbdfed 3.7."
+bdf.UNDERLINE-POSITION: -2
+bdf.UNDERLINE-THICKNESS: 1
+
+0x26:
+u+0026:
+U+0026 ampersand:
+    ........
+    ........
+    ........
+    ..@@....
+    .@..@...
+    .@..@...
+    ..@@....
+    ..@@....
+    .@..@.@.
+    .@...@..
+    .@@..@..
+    ..@@@.@.
+    ........
+    ........
+    ........
+

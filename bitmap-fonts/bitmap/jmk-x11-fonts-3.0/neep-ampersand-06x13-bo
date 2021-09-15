@@ -1,0 +1,42 @@
+name: Neep Bold 12
+family: Neep
+foundry: jmk
+copyright: Jim Knoble <jmknoble@pobox.com>
+point-size: 12
+weight: bold
+setwidth: semi-condensed
+dpi: 75 75
+spacing: character-cell
+x-height: 6
+cap-height: 9
+ascent: 11
+offset: 0 -2
+encoding: us-ascii
+converter: monobit v0.12
+source-name: neep-ampersand-06x13-bold.bdf
+source-format: BDF v2.1
+bdf.FONTNAME-REGISTRY: ""
+bdf.WEIGHT: 220
+bdf.FIGURE-WIDTH: 6
+bdf.QUAD-WIDTH: 6
+bdf.-XMBDFED-INFO: "Edited with xmbdfed 3.7."
+bdf.UNDERLINE-POSITION: -1
+bdf.UNDERLINE-THICKNESS: 1
+
+0x26:
+u+0026:
+U+0026 ampersand:
+    ......
+    ......
+    ..@...
+    ..@...
+    .@@@..
+    @@@@@.
+    @@....
+    .@@@..
+    @@....
+    @@@@@.
+    .@@@..
+    ..@...
+    ..@...
+

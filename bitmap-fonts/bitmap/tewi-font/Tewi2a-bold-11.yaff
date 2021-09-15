@@ -1,0 +1,53 @@
+# Double story a, for use with normal Tewi as a fallback.
+# 
+# This file is part of bdf-tewi.
+# 
+# Tewi is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# Tewi is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with bdf-tewi.  If not, see <http://www.gnu.org/licenses/>.
+# 
+# As a special exception, if you create a document which uses this
+# font, and embed this font or unaltered portions of this font into
+# the document, this font does not by itself cause the resulting
+# document to be covered by the GNU General Public License. This
+# exception does not however invalidate any other reasons why the
+# document might be covered by the GNU General Public License. If you
+# modify this font, you may extend this exception to your version of
+# the font, but you are not obligated to do so. If you do not wish to
+# do so, delete this exception statement from your version.
+
+name: Tewi2a Bold 9
+family: Tewi2a
+foundry: lucy
+copyright: © lucy <ne.tetewi@gmail.com>
+point-size: 9
+weight: bold
+dpi: 75 75
+spacing: character-cell
+ascent: 9
+descent: 3
+tracking: 1
+encoding: unicode
+converter: monobit v0.12
+source-name: Tewi2a-bold-11.bdf
+source-format: BDF v2.1
+bdf.CHARSET-COLLECTIONS: "ISO8859-2 ISO8859-5 ISO8859-9 ISO8859-4 ISO10646-1"
+bdf.-GBDFED-INFO: "Edited with gbdfed 1.6."
+
+u+0061:
+LATIN SMALL LETTER A:
+    .@@@.
+    ...@@
+    .@@@@
+    @@.@@
+    .@@@@
+
